@@ -1,0 +1,18 @@
+# NOTE: SOLVED
+    alive no incializado en la clase Hand 
+
+# BUG: (CORREGIDO) 
+    168-blackjack(src) bjPlayer no obtiene carta de deck
+    ASI 2 cartas iniciales no son otorgadas a bjPlayer 
+
+# BUG: (CORREGIDO)
+    Verifica el valor adecuado del AS (linea 18-Hand.cpp)
+
+# BUG: (CORREGIDO)
+    La opcion "retreat Cards" Solo debe 
+    ser mostrado al inicio del juego(cuando hay 2 cartas) 
+
+# BUG: 
+    Al apostar "seguro" el metodo setSecureBet no modifica setSecureBet
+    (linea 217 - blackjack.cpp). Parece que debe ser implementado usando
+    punteros para modificar el vector de objetos Player

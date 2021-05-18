@@ -1,0 +1,5 @@
+340: stop
+333: standard
+330: speed
+322: smisome1
+317: slant

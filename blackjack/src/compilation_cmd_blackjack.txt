@@ -1,0 +1,1 @@
+g++ -ggdb blackjack.cpp ../src/Player.cpp ../src/Answer.cpp ../src/Hand.cpp ../src/Deck.cpp ../src/Card.cpp -o blackjack
